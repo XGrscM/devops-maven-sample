@@ -11,12 +11,12 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIAL_ID = 'dockerhub-id'
-        GITHUB_CREDENTIAL_ID = 'github-id'
-        KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-        REGISTRY = 'docker.io'
-        DOCKERHUB_NAMESPACE = 'docker_username'
-        GITHUB_ACCOUNT = 'kubesphere'
-        APP_NAME = 'devops-java-sample'
+        GITCREDENTIAL_ID = 'zf30-api-git-id'
+        KUBECONFIG_CREDENTIAL_ID = 'zf30-api-kubeconfig'
+        REGISTRY = 'harbor.tianhecloud.com:54616'
+        DOCKERHUB_NAMESPACE = 'hbrobot'
+        GIT_ACCOUNT = 'lvkunling'
+        APP_NAME = 'zf30-api'
     }
 
     stages {
